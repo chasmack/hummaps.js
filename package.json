@@ -1,0 +1,24 @@
+{
+  "name": "hummaps-js",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "nodemonConfig": {
+    "verbose": true,
+    "ext": "js json hbs",
+    "watch": [".", "db", "lib", "routes", "views"]
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "express-promise-router": "^3.0.1",
+    "hbs": "^4.0.1",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.1",
+    "serve-favicon": "^2.4.5"
+  }
+}
