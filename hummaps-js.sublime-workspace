@@ -1,1 +1,418 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for\tAttr"
+			],
+			[
+				"process",
+				"processMessage"
+			],
+			[
+				"p",
+				"pi"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1195,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 236.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packinst",
+				"Package Control: Install Package"
+			],
+			[
+				"packagecontrol list",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublintertogg",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"pacins",
+				"Package Control: Install Package"
+			],
+			[
+				"packremove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"subl lint mode",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"packagecontrol ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packagecontrol rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"toggle lin",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				" disable linter",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"disable",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"jshint",
+				"JSHint"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 387.0,
+		"history":
+		[
+			"print (sys.version)",
+			"import sys"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/P/projects/js/hummaps.js"
+	],
+	"file_history":
+	[
+		"/P/projects/js/hummaps.js/README.md",
+		"/P/projects/js/hummaps-js/package.json",
+		"/P/projects/js/express/8.2-social/package.json",
+		"/P/projects/js/express/8.2-social/package-lock.json",
+		"/P/projects/js/express/express.sublime-project",
+		"/P/projects/js/express/4.2-static-file/routes/gpx.js",
+		"/P/projects/js/express/4.2-static-file/routes/index.js",
+		"/P/projects/js/express/4.2-static-file/app.js",
+		"/P/projects/js/express/4.2-static-file/package.json",
+		"/P/projects/js/express/4.2-static-file/views/index.ejs",
+		"/P/projects/js/express/4.2-static-file/bin/www",
+		"/P/projects/js/express/3.5-guestbook/package.json",
+		"/P/projects/js/express/3.5-guestbook/bin/www",
+		"/P/projects/js/express/3.5-guestbook/app.js",
+		"/P/projects/js/express/3.5-guestbook/views/header.ejs",
+		"/P/projects/js/express/3.5-guestbook/views/footer.ejs",
+		"/P/projects/js/express/3.5-guestbook/views/index.ejs",
+		"/P/projects/js/express/guestbook/views/header.ejs",
+		"/P/projects/js/express/3.5-guestbook/views/404.ejs",
+		"/C/Users/Charlie/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/P/projects/javascript/gpx/gpx.sublime-project",
+		"/P/projects/javascript/gpx/test.js",
+		"/P/projects/javascript/gpx/.eslintrc.js",
+		"/P/projects/javascript/gpx/.eslintrc",
+		"/P/projects/javascript/gpx/lib/parse-gpx.js",
+		"/P/projects/javascript/node-book/src/userv/zmq-watcher-sub.js",
+		"/P/projects/javascript/node-book/src/userv/zmq-watcher-pub.js",
+		"/C/Users/Charlie/Downloads/iTerm2-Color-Schemes-master/putty/Argonaut.reg",
+		"/C/Users/Charlie/Downloads/iTerm2-Color-Schemes-master/README.md",
+		"/P/projects/javascript/node-book/node-book.sublime-project",
+		"/P/projects/javascript/node-book/src/net/net-watcher-json-client.js",
+		"/P/projects/javascript/node-book/src/net/lib/ldj-client.js",
+		"/P/projects/javascript/node-book/src/net/test/ldj-client-test.js",
+		"/P/projects/javascript/node-book/.eslintrc",
+		"/D/Projects/JavaScript/node-book/node-book.sublime-project",
+		"/P/projects/javascript/node-book/src/net/package.json",
+		"/P/projects/javascript/node-book/src/net/net-watcher-json-service.js",
+		"/P/projects/javascript/node-book/src/net/package-lock.json",
+		"/P/projects/javascript/node-book/src/net/ldj-client.js",
+		"/C/Temp/hummaps/staging/upload.bat",
+		"/P/projects/javascript/node-book/src/net/target.txt",
+		"/P/projects/javascript/node-book/src/networking/target.txt",
+		"/P/projects/javascript/node-book/src/networking/net-watcher.js",
+		"/C/Users/Charlie/Desktop/smb.conf.5.txt",
+		"/D/Projects/JavaScript/node-book/src/networking/target.txt",
+		"/D/Projects/JavaScript/node-book/src/filesystem/watcher.js",
+		"/H/Amazon/EC2-humco/access.txt",
+		"/D/Projects/JavaScript/node-book/src/filesystem/target.txt",
+		"/D/Projects/JavaScript/node-book/src/filesystem/readfile-sync.js",
+		"/D/Projects/JavaScript/node-book/src/filesystem/readfile.js",
+		"/D/Projects/JavaScript/Node/src/filesystem/readfile-sync.js",
+		"/D/Projects/JavaScript/Node/src/filesystem/target.txt",
+		"/D/Projects/JavaScript/Node/src/filesystem/'use strict';",
+		"/D/Projects/JavaScript/Node/src/filesystem/watcher.js",
+		"/H/Amazon/S3-humco/updates.txt",
+		"/D/Projects/JavaScript/node/filesystem/watcher.js",
+		"/D/Projects/JavaScript/node/src/filesystem/watcher.js",
+		"/C/Users/Charlie/AppData/Roaming/Sublime Text 3/Packages/User/Babel.sublime-settings",
+		"/C/Users/Charlie/AppData/Roaming/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
+		"/C/Users/Charlie/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/D/Projects/JavaScript/.jshintrc",
+		"/D/Projects/JavaScript/node/.jshintrc",
+		"/D/Projects/Node/filesystem/watcher.js",
+		"/D/Projects/JavaScript/vue/indel.html",
+		"/D/Projects/JavaScript/vue/test.js",
+		"/D/Projects/JavaScript/vue/books.txt",
+		"/D/Projects/JavaScript/vue/books.py",
+		"/D/Projects/JavaScript/module/es5-module.html",
+		"/D/Projects/JavaScript/ng-tut/src/app/app.component.html",
+		"/D/Projects/JavaScript/ng-tut/src/app/app.component.css",
+		"/D/Projects/JavaScript/ng-tut/src/app/app.component.ts",
+		"/D/Projects/JavaScript/ng-tut/src/app/app.component.spec.ts",
+		"/H/Amazon/EC2/rAF.js",
+		"/D/Projects/Node/test/module.js",
+		"/D/Projects/Node/test/helloWorld.js",
+		"/D/Projects/Node/es6/async.js",
+		"/D/Projects/Node/.jshintrc",
+		"/D/Projects/Node/es6/.jshintrc",
+		"/C/Users/Charlie/.jshintrc",
+		"/D/Projects/Node/object/object.html",
+		"/D/Projects/Node/test/async.js",
+		"/D/Projects/Node/mdn-objects/oojs.html",
+		"/C/Users/Charlie/Downloads/JavaScript - The Good Parts/example_code/ch04.txt",
+		"/D/Projects/Python/hummaps/hummaps/static/css/style-18.1.1.css",
+		"/C/Users/Charlie/AppData/Roaming/Sublime Text 3/Packages/JSHint/README.md",
+		"/D/Projects/Node/typescript/greeter.ts",
+		"/C/Users/Charlie/AppData/Roaming/Sublime Text 3/Packages/TypeScript/TypeScriptReact.sublime-settings",
+		"/C/Users/Charlie/AppData/Roaming/Sublime Text 3/Packages/TypeScript/Preferences.sublime-settings",
+		"/C/Users/Charlie/AppData/Roaming/Sublime Text 3/Packages/TypeScript/TypeScript.sublime-settings",
+		"/C/Program Files/Sublime Text 3/subl.reg",
+		"/D/Projects/Node/typescript/greeter.html",
+		"/D/Projects/Node/typescript/greeter.js",
+		"/D/Projects/Node/typescript/junk",
+		"/D/Projects/Node/typescript/package.json",
+		"/H/bin/subl.bat"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+								"SL.eslint.Gutter.region.redish markup.deleted.sublime_linter markup.error.sublime_linter.dot",
+								"SL.eslint.Highlights.|region.redish markup.deleted.sublime_linter markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions"
+							],
+							"SL.17.region_keys":
+							[
+								"SL.eslint.Gutter.region.redish markup.deleted.sublime_linter markup.error.sublime_linter.dot",
+								"sublime_linter.protected_regions",
+								"SL.eslint.Highlights.|region.redish markup.deleted.sublime_linter markup.error.sublime_linter|32"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Test - net",
+	"project": "hummaps-js.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"P:\\projects\\js\\sql\\sql.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
