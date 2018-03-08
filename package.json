@@ -6,7 +6,7 @@
     "start": "nodemon ./bin/www"
   },
   "nodemonConfig": {
-    "verbose": true,
+    "verbose": false,
     "ext": "js json hbs",
     "watch": [".", "db", "lib", "routes", "views"]
   },

@@ -1,9 +1,24 @@
-SELECT map.id, map.client
-FROM hummaps.map
-JOIN hummaps.maptype ON map.maptype_id = maptype.id
-WHERE
-maptype.abbrev = 'PM' AND
-map.client ~* '\(PM\d+\)' AND
-regexp_replace(map.client, '.*\((?:PM(\d+))\).*', '\1')::int BETWEEN 1520 AND 1530
-ORDER BY map.book, map.page
-;
+-- WITH q1 AS (
+--     SELECT map.id
+--     FROM hummaps.map
+--     JOIN hummaps.maptype ON map.maptype_id = maptype.id
+--     JOIN hummaps.cc ON cc.map_id = map.id
+--     GROUP BY map.id
+--     -- HAVING count(cc.id) > 1
+
+-- ), q2 AS (
+--     SELECT map.id
+--     FROM hummaps.map
+--     JOIN hummaps.maptype ON map.maptype_id = maptype.id
+--     JOIN hummaps.cc ON cc.map_id = map.id
+--     LEFT JOIN hummaps.cc_image ON cc_image.cc_id = cc.id
+--     WHERE cc_image.id IS NULL
+-- )
+
+-- SELECT id
+-- FROM q1
+-- JOIN q2 USING (id)
+-- ORDER BY id DESC
+-- ;
+
+SELECT id FROM hummaps.map WHERE description IS NULL;
