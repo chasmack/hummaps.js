@@ -23,34 +23,52 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 1195,
+				"buffer_size": 1207,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "lib/search.js",
+			"file": "routes/search.js",
 			"settings":
 			{
-				"buffer_size": 7261,
+				"buffer_size": 2472,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/search-query.js",
+			"settings":
+			{
+				"buffer_size": 5022,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "routes/api.js",
+			"file": "db/index.js",
 			"settings":
 			{
-				"buffer_size": 398,
+				"buffer_size": 250,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sql/search.sql",
+			"settings":
+			{
+				"buffer_size": 2722,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "sql/q1.sql",
 			"settings":
 			{
-				"buffer_size": 610,
+				"buffer_size": 3653,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -175,12 +193,17 @@
 	"expanded_folders":
 	[
 		"/P/projects/js/hummaps.js",
+		"/P/projects/js/hummaps.js/db",
 		"/P/projects/js/hummaps.js/lib",
 		"/P/projects/js/hummaps.js/routes",
-		"/P/projects/js/hummaps.js/sql"
+		"/P/projects/js/hummaps.js/sql",
+		"/P/projects/js/hummaps.js/views"
 	],
 	"file_history":
 	[
+		"/P/projects/js/hummaps.js/sql/q1.sql",
+		"/P/projects/js/hummaps.js/sql/search.sql",
+		"/P/projects/js/hummaps.js/routes/api.js",
 		"/P/projects/js/hummaps.js/package.json",
 		"/P/projects/js/hummaps.js/README.md",
 		"/P/projects/js/hummaps-js/package.json",
@@ -280,7 +303,7 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -315,7 +338,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -324,15 +347,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1195,
+						"buffer_size": 1207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								317,
-								317
+								770,
+								770
 							]
 						],
 						"settings":
@@ -340,14 +363,115 @@
 							"SL.14.region_keys":
 							[
 								"SL.eslint.Gutter.region.redish markup.deleted.sublime_linter markup.error.sublime_linter.dot",
-								"SL.eslint.Highlights.|region.redish markup.deleted.sublime_linter markup.error.sublime_linter|32",
-								"sublime_linter.protected_regions"
+								"sublime_linter.protected_regions",
+								"SL.eslint.Highlights.|region.redish markup.deleted.sublime_linter markup.error.sublime_linter|32"
 							],
 							"SL.17.region_keys":
 							[
 								"SL.eslint.Gutter.region.redish markup.deleted.sublime_linter markup.error.sublime_linter.dot",
 								"sublime_linter.protected_regions",
 								"SL.eslint.Highlights.|region.redish markup.deleted.sublime_linter markup.error.sublime_linter|32"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/search.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1618,
+								1618
+							]
+						],
+						"settings":
+						{
+							"SL.20.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1320.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/search-query.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								908
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"SL.17.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 311.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "db/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"SL.22.region_keys":
+							[
 							],
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
@@ -359,63 +483,57 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "lib/search.js",
+					"buffer": 4,
+					"file": "sql/search.sql",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7261,
+						"buffer_size": 2722,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								765,
-								765
+								777,
+								777
 							]
 						],
 						"settings":
 						{
-							"SL.17.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3366.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "routes/api.js",
+					"buffer": 5,
+					"file": "sql/q1.sql",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 398,
+						"buffer_size": 3653,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								169,
-								169
+								283,
+								283
 							]
 						],
 						"settings":
 						{
-							"SL.21.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -423,41 +541,13 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sql/q1.sql",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 610,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								601,
-								601
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SQL/SQL.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -502,7 +592,7 @@
 	"project": "hummaps-js.sublime-project",
 	"replace":
 	{
-		"height": 78.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

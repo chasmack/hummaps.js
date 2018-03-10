@@ -4,7 +4,7 @@ const { Pool } = require('pg');
 
 const pool = new Pool({
   user: 'hummaps',
-  host: 'hummaps.com',
+  host: 'localhost',
   database: 'production',
   password: null,
   port: 5432,

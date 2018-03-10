@@ -26,13 +26,14 @@ WITH q1 AS (
         TRUE
 
 ), surveyor_agg AS (
-    SELECT id, array_agg(fullname) AS surveyors
+    SELECT id, array_agg(surveyor) AS surveyors
     FROM (
-        SELECT q1.id, surveyor.fullname
+        SELECT q1.id,
+            ARRAY[s.firstname, s.secondname, s.thirdname, s.lastname, s.suffix, s.pls, s.rce] AS surveyor
         FROM q1
-        JOIN hummaps.signed_by ON signed_by.map_id = q1.id
-        JOIN hummaps.surveyor ON signed_by.surveyor_id = surveyor.id
-        ORDER BY surveyor.lastname, surveyor.firstname
+        JOIN hummaps.signed_by AS sb ON sb.map_id = q1.id
+        JOIN hummaps.surveyor AS s ON sb.surveyor_id = s.id
+        ORDER BY s.lastname, s.firstname
     ) AS q
     GROUP BY id
 
